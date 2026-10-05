@@ -1,12 +1,14 @@
-import React from 'react'
-import { motion } from "motion/react"
+import React from "react";
+import { motion } from "motion/react";
+import Cards from "./components/Cards";
 
 function App() {
-  return (
-    <div>
+  return (<div>
 
-    </div>
-  )
+    <Cards/>
+    
+  </div>);
+
 }
 
-export default App
+export default App;
